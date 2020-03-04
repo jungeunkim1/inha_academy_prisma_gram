@@ -1,0 +1,33 @@
+{
+  "name": "inha_academy_prisma_gram",
+  "version": "1.0.0",
+  "description": "Blockchain with instagram Shoppingmall with express + prisma + react And Reactnative",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungeunkim1/inha_academy_prisma_gram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungeunkim1/inha_academy_prisma_gram/issues"
+  },
+  "homepage": "https://github.com/jungeunkim1/inha_academy_prisma_gram#readme",
+  "dependencies": {
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^4.0.6",
+    "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.6",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "nodemon": "2.0.2",
+    "yarn": "^1.22.0"
+  },
+  "scripts": {
+   "deploy": "prisma deploy",
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
